@@ -25,6 +25,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo $Greeting this is triggered by  $First_Name on $Cloud and the ${{ vars.project_id}}
+        run: echo $Greeting this is triggered by  $First_Name on $Cloud and the Project id is  ${{ vars.project_id}}
         env:
             First_Name: Vasanth
