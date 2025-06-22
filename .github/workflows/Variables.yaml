@@ -27,5 +27,5 @@ jobs:
       - name: Run a one-line script
         run: echo $Greeting this is triggered by  $First_Name on $Cloud.
         env:
-            First_Name:Vasanth
+            First_Name: Vasanth
 
